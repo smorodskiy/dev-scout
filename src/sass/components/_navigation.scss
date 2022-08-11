@@ -1,0 +1,45 @@
+.navigation {
+  display: none;
+  margin-right: 25px;
+
+  &__pages {
+    display: flex;
+  }
+
+  &__item {
+    margin-left: 24px;
+  }
+
+  &__link {
+    font-weight: $font-weight-1;
+    font-size: $font-size-2;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: $text-color-third;
+  }
+
+  &__link--active-page {
+    color: $accent-color;
+  }
+
+  &__link--active-page::after {
+
+    content: "";
+  }
+
+  @include media(">tablet") {
+    display: block;
+  }
+
+  @include media(">desktop") {
+    margin-right: auto;
+  }
+}
+
+
+// Hover
+.navigation {
+  &__link:hover {
+    color: $accent-color;
+  }
+}

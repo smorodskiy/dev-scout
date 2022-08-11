@@ -1,0 +1,17 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+/* Убрать подчеркивание на всех ссылках */
+a {
+    text-decoration: none;
+}
+
+// Убрать лишний отступ
+img {
+    display: block;
+}
+
+/* Глобальные атрибуты для списков */
+li {
+  list-style: none;
+  padding: 0;
+}

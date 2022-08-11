@@ -1,0 +1,12 @@
+%close-button {
+  display: block;
+  margin: 0 0 30px auto;
+  right: 0;  
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  // background: $background-color-page-primary;
+  // transition: fill $anim-duration $anim-function;
+  cursor: pointer;
+}

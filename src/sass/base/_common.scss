@@ -1,0 +1,40 @@
+// Main container
+.container {
+    min-width: 320px;
+    box-sizing: border-box;
+    // padding-top: $padding-top-bottom;
+    // padding-bottom: $padding-top-bottom;
+    padding-left: $padding;
+    padding-right: $padding;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: $container-max-width;
+    // width: 100%;
+  
+    @include media(">tablet") {
+      max-width: $t-container-max-width;
+      padding-left: $t-padding;
+      padding-right: $t-padding;
+      // padding-top: $t-padding-top-bottom;
+      // padding-bottom: $t-padding-top-bottom;
+    }
+  
+    @include media(">desktop") {
+      max-width: $d-container-max-width;
+      padding-left: $d-padding;
+      padding-right: $d-padding;
+      // padding-top: $d-padding-top-bottom;
+      // padding-bottom: $d-padding-top-bottom;
+    }
+  }
+  
+  /* Общий стиль для странцы */
+  .page {
+    font-family: $font-family;
+    font-size: $font-size-default;
+    font-weight: $font-weight-default;
+    background: $background-color-default;
+    color: $text-color-default;
+  }

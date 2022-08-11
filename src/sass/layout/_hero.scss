@@ -1,0 +1,69 @@
+.hero {
+  background: #ffb8ca;
+  height: 664px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 147px;
+  }
+
+  &__circle {
+    position: absolute;
+    width: 346px;
+    height: 346px;
+    border-radius: 50%;
+    background-color: #ffa5ba;
+  }
+
+  &__picture {
+    display: block;
+  }
+
+  &__right-wrapper,
+  &__left-wrapper {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__title-wrapper {
+  }
+
+  &__info-wrapper {
+    display: flex;
+    padding-bottom: 60px;
+  }
+
+  &__info-pic {
+  }
+
+  &__text-box {
+  }
+
+  &__text {
+    width: 200px;
+  }
+
+  &__stat {
+  }
+  &__stat-list {
+  }
+  &__stat-item {
+  }
+  &__stat-num {
+  }
+  &__stat-text {
+  }
+
+  @include media('>tablet') {
+    &__right-wrapper,
+    &__left-wrapper {
+      display: flex;
+    }
+  }
+
+  @include media('>desktop') {
+  }
+}

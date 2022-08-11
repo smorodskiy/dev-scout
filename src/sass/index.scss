@@ -1,2 +1,21 @@
-@import './common';
-@import './example';
+// Utils
+@import './utils/variables';
+@import "./utils/extendes";
+@import "./utils/mixins";
+@import "./utils/utils";
+@import "./utils/include-media";
+
+// Base
+@import './base/common';
+@import './base/reset';
+
+// Layout
+@import './layout/header';
+@import './layout/hero';
+
+
+// Components
+@import './components/btn';
+@import './components/logo';
+@import './components/navigation';
+

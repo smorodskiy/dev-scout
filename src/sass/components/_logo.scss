@@ -1,0 +1,37 @@
+.logo {
+  z-index: 1;
+  // margin-right: auto;
+  
+  &__link {
+    display: flex;
+    cursor: pointer;
+    font-family: 'Titan One';
+    font-weight: 400;
+    font-size: 24px;
+    // line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  &__icon {
+    // fill: #fff;
+    margin-right: 20px;
+    width: 49px;
+    height: 49px;
+  }
+
+  &__text {
+    align-self: center;
+    color: #D41443;
+  }
+
+  @include media('>tablet') {
+    &__icon {
+      // fill: #000;
+    }
+  }
+
+  @include media('>desktop') {
+    // margin-right: 50px;
+  }
+}

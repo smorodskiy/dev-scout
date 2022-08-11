@@ -1,0 +1,69 @@
+//------------------------------------------------ Global
+// Container
+$padding: 20px;
+$t-padding: 16px;
+$d-padding: 32px;
+$container-max-width: 320px;
+$t-container-max-width: 768px;
+$d-container-max-width: 1200px;
+
+// Fonts
+$font-size-default: 18px;
+$font-size-1: 11px;
+$font-size-2: 12px;
+$font-size-3: 14px;
+$font-size-4: 16px;
+$font-size-5: 18px;
+$font-size-6: 42px;
+$font-size-8: 72px;
+$font-weight-default: 400;
+$font-weight-1: 400;
+$font-weight-2: 700;
+
+// Font
+$text-color-default: #555555;
+$text-color-second: #9DA4BD;
+$text-color-third: #fff;
+$text-color-4: #303030;
+$font-family: 'DM Sans', 'Titan One', sans-serif;
+
+// font-family: 'DM Sans', sans-serif;
+// font-family: 'Titan One', cursive;
+
+// Background colors
+$background-color-default: #fff;
+$background-color-second: #F7F7F7;
+$background-color-third: #191C26;
+
+// Page header
+$top-header: 42px;
+
+/* Animation */
+$anim-duration: 0.25s;
+$anim-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+// Accent
+$accent-color: #FF6C00;
+
+// ------------------------------------------------ Components
+
+// Logo
+$logo-second-text-part-color-header: #000;
+$logo-font-size: 24px;
+$t-logo-font-size: 24px;
+$d-logo-font-size: 26px;
+
+// Button
+$btn-font-size: 8px;
+$btn-text-color: #D41443;
+$btn-background-color: #fff;
+$btn-border-color: #FF6C00;
+$btn-background-color-hover: #FF6C00;
+
+// Social icons
+$social-icons-ellipse-background-color: #fff;
+$svg-icon-background-color: #303030;
+
+// ------------------------------------------------ layouts
+
+// Header

@@ -1,0 +1,39 @@
+.btn {
+  height: 24px;
+  // width: 200px;
+  // display: inline-block;
+  // padding: 12px 20px 12px 20px;
+  align-items: center;
+  font-family: 'DM Sans';
+  font-weight: $font-weight-default;
+  font-size: $btn-font-size;
+  line-height: 10px;
+  color: $btn-text-color;
+  border-radius: 20px;
+  background: $btn-background-color;
+  cursor: pointer;
+
+  &--yellow {
+    background: $btn-background-color-hover;
+    color: $btn-background-color;
+  }
+
+  &--trans {
+    background: transparent;
+    color: $btn-background-color;
+  }
+}
+
+// HOVER
+.btn {
+  &:focus,
+  &:hover {
+    color: $btn-background-color;
+    background: $btn-background-color-hover;
+  }
+
+  &--yellow &__link:hover {
+    color: $btn-text-color;
+    background: $btn-background-color;
+  }
+}

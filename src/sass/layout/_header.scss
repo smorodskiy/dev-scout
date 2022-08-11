@@ -1,0 +1,45 @@
+.page-header {
+  position: fixed;
+  width: 100vw;
+
+  &__container {
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // height: 65px;
+    margin-top: 8px;
+  }
+
+  &__btn {
+    display: none;
+  }
+
+  &__hum-button {
+  }
+  &__hum-link {
+  }
+
+  &__hum-icon {
+    width: 20px;
+    height: 12px;
+  }
+
+  @include media('>tablet') {
+    &__wrapper {
+      margin-top: 32px;
+    }
+
+    &__btn {
+      display: inline-block;
+    }
+  }
+
+  @include media('>desktop') {
+    &__wrapper {
+      margin-top: 37px;
+    }
+  }
+}
