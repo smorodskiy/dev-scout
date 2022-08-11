@@ -11,14 +11,15 @@
 
   &__circle {
     position: absolute;
+    text-align: center;
     width: 346px;
     height: 346px;
     border-radius: 50%;
     background-color: #ffa5ba;
   }
 
-  &__picture {
-    display: block;
+  &__pic {
+    display: inline-block;
   }
 
   &__right-wrapper,

@@ -34,7 +34,7 @@
   }
 }
 
-/* Общий стиль для странцы */
+/* Main style for page */
 .page {
   font-family: "DM Sans", "Titan One", sans-serif;
   font-size: 18px;
@@ -101,13 +101,14 @@ li {
 }
 .hero__circle {
   position: absolute;
+  text-align: center;
   width: 346px;
   height: 346px;
   border-radius: 50%;
   background-color: #ffa5ba;
 }
-.hero__picture {
-  display: block;
+.hero__pic {
+  display: inline-block;
 }
 .hero__right-wrapper, .hero__left-wrapper {
   display: none;
