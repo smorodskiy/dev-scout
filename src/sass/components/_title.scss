@@ -1,0 +1,16 @@
+.title {
+  font-family: 'Titan One';
+  font-weight: 400;
+//   font-size: 38px;
+//   line-height: 44px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $title-color;
+
+  &__secondline {   
+    // font-size: 58px;
+    // line-height: 52px; 
+    color: $title-secondline-color;
+  }
+}
+

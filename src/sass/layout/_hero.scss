@@ -1,6 +1,6 @@
 .hero {
   background: #ffb8ca;
-  
+
   &__container {
     position: relative;
     display: flex;
@@ -31,19 +31,10 @@
   }
 
   &__circle {
-    // position: absolute;
-    // text-align: center;
-    // width: 346px;
-    // height: 346px;
-    // border-radius: 50%;
-    // background-color: #ffa5ba;
   }
 
   &__pic {
     position: relative;
-
-    // top: 54px;
-    // display: inline-block;
   }
 
   &__right-wrapper {
@@ -58,6 +49,7 @@
   }
 
   &__title-wrapper {
+    width: 277px;
   }
 
   &__info-wrapper {
@@ -95,7 +87,6 @@
 
     &__pic-box {
       right: 303px;
-      // left: 30%;
     }
 
     &__pic-box:before {
@@ -113,6 +104,20 @@
     &__info-wrapper {
       display: flex;
     }
+
+    &__title-wrapper {
+      width: 162px;
+    }
+
+    &__title {
+      font-size: 22px;
+      line-height: 25px;
+    }
+
+    &__secondline {
+      font-size: 34px;
+      line-height: 31px;
+    }
   }
 
   @include media('>desktop') {
@@ -122,7 +127,6 @@
 
     &__pic-box {
       right: 328px;
-      // left: 50%;
     }
 
     &__pic-box:before {
@@ -131,8 +135,15 @@
       top: -54px;
     }
 
+    // font-size: 37px;
+    // line-height: 42px;
+
     &__info-wrapper {
       padding-bottom: 60px;
+    }
+
+    &__title-wrapper {
+      width: 277px;
     }
   }
 }

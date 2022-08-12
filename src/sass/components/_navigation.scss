@@ -1,6 +1,5 @@
 .navigation {
   display: none;
-  
 
   &__pages {
     display: flex;
@@ -17,7 +16,7 @@
   &__link {
     font-weight: $font-weight-2;
     font-size: $font-size-4;
-    line-height: 21px;    
+    line-height: 21px;
     color: $text-color-third;
   }
 
@@ -26,19 +25,16 @@
   }
 
   &__link--active-page::after {
-
-    content: "";
+    content: '';
   }
 
-  @include media(">tablet") {
-    
+  @include media('>tablet') {
   }
 
-  @include media(">desktop") {
+  @include media('>desktop') {
     display: block;
   }
 }
-
 
 // Hover
 .navigation {
