@@ -1,7 +1,6 @@
 .logo {
   z-index: 1;
-  // margin-right: auto;
-  
+
   &__link {
     display: flex;
     cursor: pointer;
@@ -14,7 +13,6 @@
   }
 
   &__icon {
-    // fill: #fff;
     margin-right: 20px;
     width: 49px;
     height: 49px;

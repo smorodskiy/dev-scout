@@ -3,25 +3,42 @@
 <section class="hero">
   <!-- CONTAINER -->
   <div class="container hero__container">
-    
-    <!-- Circle in hero -->
-    <div class="hero__circle">
-    
-      <!-- Picture in the circle -->
-      <!-- Need to add media for screens -->
-      <img
-        class="hero__pic"
-        src="/src/images/mobile/slider-pic1.webp"
-        alt=""
-      />
+    <!-- Picture in the circle -->
+    <div class="hero__pic-box">
+      <picture>
+        <source
+          media="(max-width: 768px)"
+          srcset="
+            ./images/mobile/slider-pic1.webp    1x,
+            ./images/mobile/slider-pic1@2x.webp 2x
+          "
+          sizes=""
+        />
+        <source
+          media="(max-width: 1199px)"
+          srcset="
+            ./images/tablet/slider-pic1.webp    1x,
+            ./images/tablet/slider-pic1@2x.webp 2x
+          "
+          sizes=""
+        />
+        <source
+          media="(min-width: 1200px)"
+          srcset="
+            ./images/desktop/slider-pic1.webp    1x,
+            ./images/desktop/slider-pic1@2x.webp 2x
+          "
+          sizes=""
+        />
+
+        <img class="hero__pic" src="./images/desktop/slider-pic1.webp" alt="" />
+      </picture>
     </div>
-    
+
     <!-- Left Column -->
     <div class="hero__left-wrapper">
-    
       <!-- Title wrapper -->
       <div class="hero__title-wrapper">
-        
         <!-- Title Component -->
         <h1 class="title">Title</h1>
         <p class="title__secondline"></p>
@@ -29,17 +46,36 @@
         <!-- Buttons -->
         <a class="btn">Products</a>
         <a class="btn">How it’s made?</a>
-
       </div>
 
       <!-- Info box -->
       <div class="hero__info-wrapper">
-        <!-- Need to add media for screens -->
-        <img
-          class="hero__info-pic"
-          src="/src/images/desktop/slider-pic2.webp"
-          alt=""
-        />
+        <!-- Picture -->
+        <picture>
+          <source
+            media="(max-width: 1199px)"
+            srcset="
+              ./images/tablet/slider-pic2.webp    1x,
+              ./images/tablet/slider-pic2@2x.webp 2x
+            "
+            sizes=""
+          />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/desktop/slider-pic2.webp    1x,
+              ./images/desktop/slider-pic2@2x.webp 2x
+            "
+            sizes=""
+          />
+
+          <img
+            class="hero__info-pic"
+            src="./images/desktop/slider-pic2.webp"
+            alt=""
+          />
+        </picture>
+
         <div class="hero__text-box">
           <p class="hero__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -53,7 +89,6 @@
 
     <!-- Right Column -->
     <div class="hero__right-wrapper">
-
       <!-- List -->
       <div class="hero__stat">
         <ul class="hero__stat-list">
@@ -69,7 +104,31 @@
       </div>
 
       <!-- Picture with a girl -->
-      <img class="hero__girl-pic" src="/src/images/desktop/slider-pic3.webp" alt="" />
+
+      <picture>
+        <source
+          media="(max-width: 1199px)"
+          srcset="
+            ./images/tablet/slider-pic3.webp    1x,
+            ./images/tablet/slider-pic3@2x.webp 2x
+          "
+          sizes=""
+        />
+        <source
+          media="(min-width: 1200px)"
+          srcset="
+            ./images/desktop/slider-pic3.webp    1x,
+            ./images/desktop/slider-pic3@2x.webp 2x
+          "
+          sizes=""
+        />
+
+        <img
+          class="hero__girl-pic"
+          src="/src/images/desktop/slider-pic3.webp"
+          alt=""
+        />
+      </picture>
     </div>
   </div>
 </section>
